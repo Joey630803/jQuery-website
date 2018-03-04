@@ -1,0 +1,52 @@
+{
+    //首页--资讯快递
+    "fastMail":{
+        "fastMailTitle":"资讯速递",
+        "fastMailTip":"NEWS",
+        "newList" :[
+            //
+            {"newId":1,"date":"时间","wechat":"微信","title":"标题","content":"内容","imgUrl":"图片","detailsContent":"详情"}
+        ]
+    },
+    //首页--行业资讯
+    "industryInfo":{
+        "newList" :[
+            {"newId":1,"date":"时间","title":"标题","content":"内容","imgUrl":"图片","detailsContent":"详情"}
+         ]
+
+    },
+    //首页--系统公告
+    "systemsInfo":{
+        "newList" :[
+            {"newId":1,"date":"时间","title":"标题","content":"内容","imgUrl":"图片","detailsContent":"详情"}
+         ]
+    },
+    //首页--专题
+    "topicsInfo":{
+        "newList" :[
+            {"newId":1,"date":"时间","title":"标题","content":"内容","imgUrl":"图片","detailsContent":"详情"}
+        ]
+    },
+    //新闻列表--新闻详情
+    "detailsListInfo":{
+        "detailsTitle":"资讯速递",
+        "detailsTip":"NEWS",
+        "newList" :[
+            {"newId":1,"date":"时间","wechat":"微信","heart":"喜欢收藏","title":"标题","content":"内容"}
+        ]
+    },
+    //新闻列表-新闻详情--精彩资讯
+    "hightInfo":{
+        "hightTitle":"精彩资讯",
+        "newList" :[
+            {"newId":1,"date":"时间","title":"标题","content":"内容","imgUrl":"图片","detailsContent":"详情"}
+        ]
+    },
+    //新闻列表-新闻详情--热点资讯
+    "hotInfo":{
+        "newList" :[
+            {"newId":1,"date":"时间","title":"标题","content":"内容"}
+         ]
+    }
+
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/pagination.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="wrap">
+            <!-- 显示在banner上的导航 使用position:fixed-->
+           <header>
+            <div class="header">
+                <a href="javascript:;">
+                        <img src="images/logo-1.png" alt="logo" title="湖北医工">
+                </a>
+                <div class="header_con">
+                    <div class="rightArea clearfix">
+                        <ul class="nav clearfix">
+                            <li><a href="index.html">首页</a></li>
+                            <!-- <li><a href="#">医商云案例</a></li>
+                            <li><a href="#">客户案例</a></li> -->
+                            <li><a href="news.html" class="active">行业信息</a></li>
+                            <!-- <li><a href="#">关于我们</a></li> -->
+                        </ul>
+                        <ul class="login_area clearfix">
+                            <li><a href="javascript:;">注册</a></li>
+                            <li class="line">|</li>
+                            <li><a href="javascript:;">登录</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+           </header>
+            <!-- banner图片 -->
+            <div class="focusBox">
+                <ul class="pic"> 
+                    <li class=""><a href="#"><img src="images/banner1.png" alt="banner"></a></li> 
+                    <li class=""><a href="#"><img src="images/banner2.png" alt="banner"></a></li>
+                    <li class=""><a href="#"><img src="images/banner3.png" alt="banner"></a></li>
+                    <li class=""><a href="#"><img src="images/banner4.png" alt="banner"></a></li>
+                    <li class=""><a href="#"><img src="images/banner5.png" alt="banner"></a></li>
+                </ul> 
+                <ul class="num">  
+                    <li><a></a><span></span></li>  
+                    <li><a></a><span></span></li>  
+                    <li><a></a><span></span></li>
+                    <li><a></a><span></span></li>
+                    <li><a></a><span></span></li>
+                </ul>
+                <a href="javascript:;" class="prev btn btn_lt"></a>
+                <a href="javascript:;" class="next btn btn_rt"></a>
+            </div>
+            <!-- 主体部分 -->
+            <div class="main clearfix">
+                <!-- 左边部分 -->
+                <div class="main-left">
+                    <!-- 资讯速递 -->
+                    <div class="news-list" id="newsList">
+                    </div>
+                    <!-- 分页 -->
+                    <div class="M-box"></div>
+                </div>
+                <!-- 右边部分 -->
+                <div class="main-right">
+                    <!-- 中心介绍 -->
+                    <div class="system">
+                        <div class="system-title">
+                            <h5>精彩推荐/<span>NEWS</span></h5>
+                        </div>
+                        <div class="hight-news" id="hight-news">
+                            <!-- <h5>精彩资讯</h5>
+                            <div class="hight-news-content clearfix">
+                                <div class="hight-news-pic">
+                                    <img src="images/industry_recommend_square_img.png"/>
+                                </div>
+                                <div class="hight-news-info">
+                                    <p>医疗业的 "共享资源" 是这样玩的</p>
+                                    <span>2017/08/24</span>
+                                </div>
+                            </div>
+                            <div class="hight-news-content clearfix">
+                                <div class="hight-news-pic">
+                                    <img src="images/industry_recommend_square_img.png"/>
+                                </div>
+                                <div class="hight-news-info">
+                                    <p>医疗业的 "共享资源" 是这样玩的</p>
+                                    <span>2017/08/24</span>
+                                </div>
+                            </div>
+                            <div class="hight-news-content clearfix">
+                                <div class="hight-news-pic">
+                                    <img src="images/industry_recommend_square_img.png"/>
+                                </div>
+                                <div class="hight-news-info">
+                                    <p>医疗业的 "共享资源" 是这样玩的</p>
+                                    <span>2017/08/24</span>
+                                </div>
+                            </div> -->
+                        </div>
+                        <div class="hot-news">
+                            <h5>热点资讯</h5>
+                            <ul class="hot-list" id="hot-list">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      
+        <!-- 底部 -->
+    	<footer>
+            <div class="content clearfix">
+                <div class="aboutUs">
+                    <div><img src="images/logo-1.png"/></div>
+                    <!-- <p> 
+                         普华信联（武汉）科技有限公司，2013年创立于
+                        湖北武汉，是一家医疗互联网服务型企业，兼具
+                        医疗信息化平台开发能力、整体运营能力的技术
+                        型服务平台。
+                    </p> -->
+                </div>
+                <!-- <ul class="foot_nav">
+                        <h5>页面Page</h5>
+                        <li><a href="javascript:;">首页</a></li>
+                        <li><a href="javascript:;">医商云服务</a></li>
+                        <li><a href="javascript:;">客户案例</a></li>
+                        <li><a href="javascript:;">行业信息</a></li>
+                        <li><a href="javascript:;">人才招聘</a></li>
+                        <li><a href="javascript:;">关于我们</a></li>
+                    </ul> -->
+                <div class="contactUs">
+                        <h5>联系我们/Contact</h5>
+                        <p class="tel">电话 : 027-5956-6545</p>
+                        <p class="Internet">网址：www.ysynet.com</p>
+                        <p class="address">地址 ：武汉市江岸区台北一路环亚大厦B座1001</p>
+                       
+                </div>
+                <ul class="Cooperation">
+                    <h5>友情链接</h5>
+                    <li>国家卫生和计划生育委员会</li>
+                    <li>国家食品药品监督管理局</li>
+                    <li>湖北省卫生和计划生育委员会</li>
+                    <li>湖北省食品药监监督管理局</li>
+                    <li>中国医学装备协会</li>
+                    <li>湖北医学会</li>
+                    <li>华中科技大学同济医学院附属协和医院</li>
+                    <li><a href="http://www.ysynet.com">医商云</a></li>
+            </ul>
+            </div>
+            <div class="copyright">
+                    <p class="ourCompany">Copyright &copy;2015 普华信联（武汉）科技有限公司 <span class="beian">鄂CP备14015938 号</span></p>
+            </div>
+		</footer>
+    
+    </div>
+        <script type="text/javascript" src='js/jquery-1.12.3.min.js'></script>
+        <script type="text/javascript" src='js/jquery.SuperSlide.2.1.2.js'></script>
+        <script type="text/javascript" src="js/jquery.pagination.js"></script>
+        <script type="text/javascript" src='js/slide.js'></script>
+        <script type="text/javascript" src='js/news.js'></script>
+    </body>
+</html>
